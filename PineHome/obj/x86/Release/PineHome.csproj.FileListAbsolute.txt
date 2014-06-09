@@ -1,0 +1,5 @@
+D:\Development\Pine\PineHome\PineHome\bin\Release\PineHome.exe
+D:\Development\Pine\PineHome\PineHome\bin\Release\PineHome.pdb
+D:\Development\Pine\PineHome\PineHome\obj\x86\Release\ResolveAssemblyReference.cache
+D:\Development\Pine\PineHome\PineHome\obj\x86\Release\PineHome.exe
+D:\Development\Pine\PineHome\PineHome\obj\x86\Release\PineHome.pdb

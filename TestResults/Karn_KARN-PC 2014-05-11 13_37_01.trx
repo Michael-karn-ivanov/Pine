@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2a557de6-dc2f-434e-9b7a-e63181f59dff" name="Karn@KARN-PC 2014-05-11 13:37:01" runUser="Karn-PC\Karn" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ed9c3589-b0ba-48c3-8204-e76f81ad4649">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Karn_KARN-PC 2014-05-11 13_37_01">
+      <DeploymentItem filename="D:\Development\Pine\PineHome\PineHome\bin\Debug\PineHome.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-05-11T13:37:01.9201804+04:00" queuing="2014-05-11T13:37:02.2261979+04:00" start="2014-05-11T13:37:02.2862013+04:00" finish="2014-05-11T13:37:03.2122543+04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestScoreCompare21" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="359775e0-3b6b-ef25-f82e-ea828d9f7bcc">
+      <Execution id="05cd6024-77c7-484e-b0ac-7984df864b27" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestScoreCompare21" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="359775e0-3b6b-ef25-f82e-ea828d9f7bcc" executionId="05cd6024-77c7-484e-b0ac-7984df864b27" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="05cd6024-77c7-484e-b0ac-7984df864b27" testId="359775e0-3b6b-ef25-f82e-ea828d9f7bcc" testName="TestScoreCompare21" computerName="KARN-PC" duration="00:00:00.0290495" startTime="2014-05-11T13:37:02.4152087+04:00" endTime="2014-05-11T13:37:03.0642458+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="05cd6024-77c7-484e-b0ac-7984df864b27">
+    </UnitTestResult>
+  </Results>
+</TestRun>

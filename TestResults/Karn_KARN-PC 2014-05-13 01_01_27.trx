@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="cc30ae02-f8c2-406e-a551-d27aaaa93e23" name="Karn@KARN-PC 2014-05-13 01:01:27" runUser="Karn-PC\Karn" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ed9c3589-b0ba-48c3-8204-e76f81ad4649">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Karn_KARN-PC 2014-05-13 01_01_27">
+      <DeploymentItem filename="D:\Development\Pine\PineHome\PineHome\bin\Debug\PineHome.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-05-13T01:01:27.4897331+04:00" queuing="2014-05-13T01:01:35.6071974+04:00" start="2014-05-13T01:01:35.8812131+04:00" finish="2014-05-13T01:07:05.8560865+04:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="9" executed="7" passed="3" error="0" failed="3" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="2" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="KARN-PC" outcome="Error" timestamp="2014-05-13T01:07:05.6290736+04:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestAgainstAlmostEmptyHand" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="2a961b90-a1b7-68c3-cea1-f3d75c1bceed">
+      <Execution id="1707f5e8-9e89-4c59-a832-f10c6ad551f0" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PineHome.Tests.LastTurnInPositionCaseTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAgainstAlmostEmptyHand" />
+    </UnitTest>
+    <UnitTest name="TestAgainstDead" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="13ad604c-580a-b776-f820-e940ee507a41">
+      <Execution id="2fc0bded-dff4-4b3e-ab6d-f330f58e0cfd" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PineHome.Tests.LastTurnInPositionCaseTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAgainstDead" />
+    </UnitTest>
+    <UnitTest name="TestAgainstEmptyWithFantazy" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="24ae6b62-9429-bf0f-16b3-4974a2544ea2">
+      <Execution id="f0fac420-28a5-4d6d-8f37-12317ddcc938" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PineHome.Tests.LastTurnInPositionCaseTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAgainstEmptyWithFantazy" />
+    </UnitTest>
+    <UnitTest name="TestBonusAgainstThreeLineWin2" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="fc9c0042-3fac-cefe-e5fd-d93d55132cd4">
+      <Execution id="d4b12f5a-44ce-477e-837c-cef9cf955c08" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PineHome.Tests.LastTurnInPositionCaseTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestBonusAgainstThreeLineWin2" />
+    </UnitTest>
+    <UnitTest name="TestAgainstEmptyToStayAlive" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="0be94393-4ac3-1e0a-8d18-158dce58251c">
+      <Execution id="68227bf1-9361-4e07-8697-6fd1f11fa52d" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PineHome.Tests.LastTurnInPositionCaseTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAgainstEmptyToStayAlive" />
+    </UnitTest>
+    <UnitTest name="TestBonusAgainstOneLineWin" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="6fd08b61-f86f-d6c3-6a1e-c464a2cceec0">
+      <Execution id="dcd878f2-b9af-428e-a482-31bab84110ed" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PineHome.Tests.LastTurnInPositionCaseTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestBonusAgainstOneLineWin" />
+    </UnitTest>
+    <UnitTest name="TestBonusAgainstThreeLineWin" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="c9c781eb-41b6-63b6-5d81-70b37a836eb5">
+      <Execution id="cf7525a5-7959-4836-a74b-257ae1974f7d" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PineHome.Tests.LastTurnInPositionCaseTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestBonusAgainstThreeLineWin" />
+    </UnitTest>
+    <UnitTest name="TestBonusCalcAgainstEmpty2" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="21b2a4d4-3c86-4420-7fe0-0cbb7fec85a0">
+      <Execution id="000c8d80-d1d6-43ae-8599-d5b81b4df976" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PineHome.Tests.LastTurnInPositionCaseTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestBonusCalcAgainstEmpty2" />
+    </UnitTest>
+    <UnitTest name="TestBonusCalcAgainstEmpty" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="d2a45e2f-e804-a39c-9f5e-5c208bd7d759">
+      <Execution id="4e2a4a25-e484-4fbe-a1c3-6994dd99a7b6" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PineHome.Tests.LastTurnInPositionCaseTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestBonusCalcAgainstEmpty" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0be94393-4ac3-1e0a-8d18-158dce58251c" executionId="68227bf1-9361-4e07-8697-6fd1f11fa52d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="13ad604c-580a-b776-f820-e940ee507a41" executionId="2fc0bded-dff4-4b3e-ab6d-f330f58e0cfd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="21b2a4d4-3c86-4420-7fe0-0cbb7fec85a0" executionId="000c8d80-d1d6-43ae-8599-d5b81b4df976" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="24ae6b62-9429-bf0f-16b3-4974a2544ea2" executionId="f0fac420-28a5-4d6d-8f37-12317ddcc938" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2a961b90-a1b7-68c3-cea1-f3d75c1bceed" executionId="1707f5e8-9e89-4c59-a832-f10c6ad551f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6fd08b61-f86f-d6c3-6a1e-c464a2cceec0" executionId="dcd878f2-b9af-428e-a482-31bab84110ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c9c781eb-41b6-63b6-5d81-70b37a836eb5" executionId="cf7525a5-7959-4836-a74b-257ae1974f7d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d2a45e2f-e804-a39c-9f5e-5c208bd7d759" executionId="4e2a4a25-e484-4fbe-a1c3-6994dd99a7b6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc9c0042-3fac-cefe-e5fd-d93d55132cd4" executionId="d4b12f5a-44ce-477e-837c-cef9cf955c08" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="68227bf1-9361-4e07-8697-6fd1f11fa52d" testId="0be94393-4ac3-1e0a-8d18-158dce58251c" testName="TestAgainstEmptyToStayAlive" computerName="KARN-PC" duration="00:00:00.0764586" startTime="2014-05-13T01:01:36.1772300+04:00" endTime="2014-05-13T01:01:39.0913967+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="68227bf1-9361-4e07-8697-6fd1f11fa52d">
+    </UnitTestResult>
+    <UnitTestResult executionId="2fc0bded-dff4-4b3e-ab6d-f330f58e0cfd" testId="13ad604c-580a-b776-f820-e940ee507a41" testName="TestAgainstDead" computerName="KARN-PC" duration="00:00:00.0010904" startTime="2014-05-13T01:01:39.1544003+04:00" endTime="2014-05-13T01:01:39.2084034+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2fc0bded-dff4-4b3e-ab6d-f330f58e0cfd">
+    </UnitTestResult>
+    <UnitTestResult executionId="000c8d80-d1d6-43ae-8599-d5b81b4df976" testId="21b2a4d4-3c86-4420-7fe0-0cbb7fec85a0" testName="TestBonusCalcAgainstEmpty2" computerName="KARN-PC" duration="00:00:23.8957603" startTime="2014-05-13T01:01:39.2634065+04:00" endTime="2014-05-13T01:02:03.2057759+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="000c8d80-d1d6-43ae-8599-d5b81b4df976">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;14&gt;. Actual:&lt;12&gt;. </Message>
+          <StackTrace>   at PineHome.Tests.LastTurnInPositionCaseTest.TestBonusCalcAgainstEmpty2() in D:\Development\Pine\PineHome\PineHome.Tests\LastTurnInPositionCaseTest.cs:line 76
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f0fac420-28a5-4d6d-8f37-12317ddcc938" testId="24ae6b62-9429-bf0f-16b3-4974a2544ea2" testName="TestAgainstEmptyWithFantazy" computerName="KARN-PC" duration="00:01:03.6473654" startTime="2014-05-13T01:02:03.2637793+04:00" endTime="2014-05-13T01:03:06.9594224+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f0fac420-28a5-4d6d-8f37-12317ddcc938">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;21.5&gt;. Actual:&lt;20&gt;. </Message>
+          <StackTrace>   at PineHome.Tests.LastTurnInPositionCaseTest.TestAgainstEmptyWithFantazy() in D:\Development\Pine\PineHome\PineHome.Tests\LastTurnInPositionCaseTest.cs:line 97
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1707f5e8-9e89-4c59-a832-f10c6ad551f0" testId="2a961b90-a1b7-68c3-cea1-f3d75c1bceed" testName="TestAgainstAlmostEmptyHand" computerName="KARN-PC" duration="00:00:00.0004505" startTime="2014-05-13T01:03:07.0464274+04:00" endTime="2014-05-13T01:03:07.1024306+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1707f5e8-9e89-4c59-a832-f10c6ad551f0">
+    </UnitTestResult>
+    <UnitTestResult executionId="dcd878f2-b9af-428e-a482-31bab84110ed" testId="6fd08b61-f86f-d6c3-6a1e-c464a2cceec0" testName="TestBonusAgainstOneLineWin" computerName="KARN-PC" duration="00:02:04.3257704" startTime="2014-05-13T01:03:07.1844353+04:00" endTime="2014-05-13T01:05:11.5965513+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dcd878f2-b9af-428e-a482-31bab84110ed">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;-7&gt;. Actual:&lt;-6&gt;. </Message>
+          <StackTrace>   at PineHome.Tests.LastTurnInPositionCaseTest.TestBonusAgainstOneLineWin() in D:\Development\Pine\PineHome\PineHome.Tests\LastTurnInPositionCaseTest.cs:line 139
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cf7525a5-7959-4836-a74b-257ae1974f7d" testId="c9c781eb-41b6-63b6-5d81-70b37a836eb5" testName="TestBonusAgainstThreeLineWin" computerName="KARN-PC" duration="00:01:53.9885197" startTime="2014-05-13T01:05:11.6975571+04:00" endTime="2014-05-13T01:07:05.6860768+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cf7525a5-7959-4836-a74b-257ae1974f7d">
+    </UnitTestResult>
+    <UnitTestResult executionId="4e2a4a25-e484-4fbe-a1c3-6994dd99a7b6" testId="d2a45e2f-e804-a39c-9f5e-5c208bd7d759" testName="TestBonusCalcAgainstEmpty" computerName="KARN-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e2a4a25-e484-4fbe-a1c3-6994dd99a7b6">
+    </UnitTestResult>
+    <UnitTestResult executionId="d4b12f5a-44ce-477e-837c-cef9cf955c08" testId="fc9c0042-3fac-cefe-e5fd-d93d55132cd4" testName="TestBonusAgainstThreeLineWin2" computerName="KARN-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d4b12f5a-44ce-477e-837c-cef9cf955c08">
+    </UnitTestResult>
+  </Results>
+</TestRun>

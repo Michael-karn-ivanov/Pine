@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="aa86cec2-700e-4a53-99de-49e38cce6219" name="Karn@KARN-PC 2014-05-13 00:29:02" runUser="Karn-PC\Karn" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ed9c3589-b0ba-48c3-8204-e76f81ad4649">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Karn_KARN-PC 2014-05-13 00_29_02">
+      <DeploymentItem filename="D:\Development\Pine\PineHome\PineHome\bin\Debug\PineHome.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-05-13T00:29:02.3264761+04:00" queuing="2014-05-13T00:29:04.8656214+04:00" start="2014-05-13T00:29:04.9386255+04:00" finish="2014-05-13T00:29:06.0166872+04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestBonusCalcAgainstEmpty" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="d2a45e2f-e804-a39c-9f5e-5c208bd7d759">
+      <Execution id="b38b2916-c6ab-43e0-87a2-9259eb4b6d06" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PineHome.Tests.LastTurnInPositionCaseTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestBonusCalcAgainstEmpty" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="d2a45e2f-e804-a39c-9f5e-5c208bd7d759" executionId="b38b2916-c6ab-43e0-87a2-9259eb4b6d06" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b38b2916-c6ab-43e0-87a2-9259eb4b6d06" testId="d2a45e2f-e804-a39c-9f5e-5c208bd7d759" testName="TestBonusCalcAgainstEmpty" computerName="KARN-PC" duration="00:00:00.1035084" startTime="2014-05-13T00:29:05.0866340+04:00" endTime="2014-05-13T00:29:05.8516778+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b38b2916-c6ab-43e0-87a2-9259eb4b6d06">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;16&gt;. Actual:&lt;-6&gt;. </Message>
+          <StackTrace>   at PineHome.Tests.LastTurnInPositionCaseTest.TestBonusCalcAgainstEmpty() in D:\Development\Pine\PineHome\PineHome.Tests\LastTurnInPositionCaseTest.cs:line 55
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

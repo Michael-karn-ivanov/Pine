@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="29f476af-a4ef-43d3-8167-cf03fbe3b6f9" name="Karn@KARN-PC 2014-05-11 12:54:47" runUser="Karn-PC\Karn" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ed9c3589-b0ba-48c3-8204-e76f81ad4649">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Karn_KARN-PC 2014-05-11 12_54_47">
+      <DeploymentItem filename="D:\Development\Pine\PineHome\PineHome\bin\Debug\PineHome.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-05-11T12:54:47.9492455+04:00" queuing="2014-05-11T12:54:48.2422623+04:00" start="2014-05-11T12:54:48.4422737+04:00" finish="2014-05-11T12:54:50.2783787+04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestScoreCompare03" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="e316f557-401c-4281-e9a7-39cbfec16de6">
+      <Execution id="36ac80fd-f5da-41e9-9c6e-bbbf0a29afc5" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestScoreCompare03" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="e316f557-401c-4281-e9a7-39cbfec16de6" executionId="36ac80fd-f5da-41e9-9c6e-bbbf0a29afc5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="36ac80fd-f5da-41e9-9c6e-bbbf0a29afc5" testId="e316f557-401c-4281-e9a7-39cbfec16de6" testName="TestScoreCompare03" computerName="KARN-PC" duration="00:00:00.8894988" startTime="2014-05-11T12:54:48.5102776+04:00" endTime="2014-05-11T12:54:50.1603720+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="36ac80fd-f5da-41e9-9c6e-bbbf0a29afc5">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;-6&gt;. Actual:&lt;-1&gt;. </Message>
+          <StackTrace>   at Pineapple.UnitTest.LastTurnInPositionTest.TestScoreCompare03() in D:\Development\Pine\PineHome\PineHome.Tests\LastTurnInPositionTest.cs:line 206
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

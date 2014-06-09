@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e371deac-ed80-4916-ae85-556e25b120bb" name="Karn@KARN-PC 2014-05-13 00:24:40" runUser="Karn-PC\Karn" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ed9c3589-b0ba-48c3-8204-e76f81ad4649">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Karn_KARN-PC 2014-05-13 00_24_40">
+      <DeploymentItem filename="D:\Development\Pine\PineHome\PineHome\bin\Debug\PineHome.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-05-13T00:24:40.1264791+04:00" queuing="2014-05-13T00:24:43.8616928+04:00" start="2014-05-13T00:24:44.0297024+04:00" finish="2014-05-13T00:24:45.9758137+04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestAgainstAlmostEmptyHand" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="2a961b90-a1b7-68c3-cea1-f3d75c1bceed">
+      <Execution id="369f7e7e-ce84-4d5c-b006-9c116369f8a2" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PineHome.Tests.LastTurnInPositionCaseTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAgainstAlmostEmptyHand" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2a961b90-a1b7-68c3-cea1-f3d75c1bceed" executionId="369f7e7e-ce84-4d5c-b006-9c116369f8a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="369f7e7e-ce84-4d5c-b006-9c116369f8a2" testId="2a961b90-a1b7-68c3-cea1-f3d75c1bceed" testName="TestAgainstAlmostEmptyHand" computerName="KARN-PC" duration="00:00:00.2767798" startTime="2014-05-13T00:24:44.3077183+04:00" endTime="2014-05-13T00:24:45.7968035+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="369f7e7e-ce84-4d5c-b006-9c116369f8a2">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;44.5&gt;. Actual:&lt;43.5&gt;. </Message>
+          <StackTrace>   at PineHome.Tests.LastTurnInPositionCaseTest.TestAgainstAlmostEmptyHand() in D:\Development\Pine\PineHome\PineHome.Tests\LastTurnInPositionCaseTest.cs:line 33
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

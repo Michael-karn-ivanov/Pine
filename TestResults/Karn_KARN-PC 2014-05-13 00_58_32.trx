@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c8acbf94-0c9f-4b66-831e-a613ea3da3ae" name="Karn@KARN-PC 2014-05-13 00:58:32" runUser="Karn-PC\Karn" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ed9c3589-b0ba-48c3-8204-e76f81ad4649">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Karn_KARN-PC 2014-05-13 00_58_32">
+      <DeploymentItem filename="D:\Development\Pine\PineHome\PineHome\bin\Debug\PineHome.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-05-13T00:58:32.2487099+04:00" queuing="2014-05-13T00:58:40.8101996+04:00" start="2014-05-13T00:58:41.1212174+04:00" finish="2014-05-13T00:59:54.6834249+04:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="KARN-PC" outcome="Error" timestamp="2014-05-13T00:59:54.5984200+04:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestBonusCalcAgainstEmpty2" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="21b2a4d4-3c86-4420-7fe0-0cbb7fec85a0">
+      <Execution id="cf01ee6d-c7e7-417b-b01a-abddcd92aead" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PineHome.Tests.LastTurnInPositionCaseTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestBonusCalcAgainstEmpty2" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="21b2a4d4-3c86-4420-7fe0-0cbb7fec85a0" executionId="cf01ee6d-c7e7-417b-b01a-abddcd92aead" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="cf01ee6d-c7e7-417b-b01a-abddcd92aead" testId="21b2a4d4-3c86-4420-7fe0-0cbb7fec85a0" testName="TestBonusCalcAgainstEmpty2" computerName="KARN-PC" duration="00:01:13.2351888" startTime="2014-05-13T00:58:41.4482361+04:00" endTime="2014-05-13T00:59:54.6834249+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cf01ee6d-c7e7-417b-b01a-abddcd92aead">
+    </UnitTestResult>
+  </Results>
+</TestRun>

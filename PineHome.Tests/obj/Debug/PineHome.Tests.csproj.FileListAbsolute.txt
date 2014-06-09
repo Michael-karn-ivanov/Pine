@@ -1,0 +1,7 @@
+D:\Development\Pine\PineHome\PineHome.Tests\obj\Debug\ResolveAssemblyReference.cache
+D:\Development\Pine\PineHome\PineHome.Tests\bin\Debug\PineHome.Tests.dll
+D:\Development\Pine\PineHome\PineHome.Tests\bin\Debug\PineHome.Tests.pdb
+D:\Development\Pine\PineHome\PineHome.Tests\bin\Debug\PineHome.exe
+D:\Development\Pine\PineHome\PineHome.Tests\bin\Debug\PineHome.pdb
+D:\Development\Pine\PineHome\PineHome.Tests\obj\Debug\PineHome.Tests.dll
+D:\Development\Pine\PineHome\PineHome.Tests\obj\Debug\PineHome.Tests.pdb

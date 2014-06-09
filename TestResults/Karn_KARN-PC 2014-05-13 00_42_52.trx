@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="aa145a87-af0a-4f3b-92d2-2c3ef2982a5a" name="Karn@KARN-PC 2014-05-13 00:42:52" runUser="Karn-PC\Karn" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ed9c3589-b0ba-48c3-8204-e76f81ad4649">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Karn_KARN-PC 2014-05-13 00_42_52">
+      <DeploymentItem filename="D:\Development\Pine\PineHome\PineHome\bin\Debug\PineHome.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-05-13T00:42:52.0429332+04:00" queuing="2014-05-13T00:43:00.6784271+04:00" start="2014-05-13T00:43:00.9704438+04:00" finish="2014-05-13T00:47:34.3750817+04:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="KARN-PC" outcome="Error" timestamp="2014-05-13T00:47:34.2580750+04:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestBonusAgainstThreeLineWin" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="c9c781eb-41b6-63b6-5d81-70b37a836eb5">
+      <Execution id="7db05731-6e2c-4f90-bb5a-8156213f1c74" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PineHome.Tests.LastTurnInPositionCaseTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestBonusAgainstThreeLineWin" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c9c781eb-41b6-63b6-5d81-70b37a836eb5" executionId="7db05731-6e2c-4f90-bb5a-8156213f1c74" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7db05731-6e2c-4f90-bb5a-8156213f1c74" testId="c9c781eb-41b6-63b6-5d81-70b37a836eb5" testName="TestBonusAgainstThreeLineWin" computerName="KARN-PC" duration="00:04:33.0986204" startTime="2014-05-13T00:43:01.2764613+04:00" endTime="2014-05-13T00:47:34.3750817+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7db05731-6e2c-4f90-bb5a-8156213f1c74">
+    </UnitTestResult>
+  </Results>
+</TestRun>

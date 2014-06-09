@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PineHome", "PineHome\PineHome.csproj", "{A91FC42B-820E-4680-8F10-0885AA1C4C47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PineHome.Tests", "PineHome.Tests\PineHome.Tests.csproj", "{26B1C705-D5D7-48D7-A466-09EFD45C1E6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{91129C29-D172-4414-BA0A-48907461605F}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		PineHome.vsmdi = PineHome.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeMeasureConsole", "TimeMeasureConsole\TimeMeasureConsole.csproj", "{97ADD47D-8D6D-40C4-995D-0F6DB171170C}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = PineHome.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A91FC42B-820E-4680-8F10-0885AA1C4C47}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{A91FC42B-820E-4680-8F10-0885AA1C4C47}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{A91FC42B-820E-4680-8F10-0885AA1C4C47}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{A91FC42B-820E-4680-8F10-0885AA1C4C47}.Debug|x86.ActiveCfg = Debug|x86
+		{A91FC42B-820E-4680-8F10-0885AA1C4C47}.Debug|x86.Build.0 = Debug|x86
+		{A91FC42B-820E-4680-8F10-0885AA1C4C47}.Release|Any CPU.ActiveCfg = Release|x86
+		{A91FC42B-820E-4680-8F10-0885AA1C4C47}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{A91FC42B-820E-4680-8F10-0885AA1C4C47}.Release|Mixed Platforms.Build.0 = Release|x86
+		{A91FC42B-820E-4680-8F10-0885AA1C4C47}.Release|x86.ActiveCfg = Release|x86
+		{A91FC42B-820E-4680-8F10-0885AA1C4C47}.Release|x86.Build.0 = Release|x86
+		{26B1C705-D5D7-48D7-A466-09EFD45C1E6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26B1C705-D5D7-48D7-A466-09EFD45C1E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26B1C705-D5D7-48D7-A466-09EFD45C1E6C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{26B1C705-D5D7-48D7-A466-09EFD45C1E6C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{26B1C705-D5D7-48D7-A466-09EFD45C1E6C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{26B1C705-D5D7-48D7-A466-09EFD45C1E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26B1C705-D5D7-48D7-A466-09EFD45C1E6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26B1C705-D5D7-48D7-A466-09EFD45C1E6C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{26B1C705-D5D7-48D7-A466-09EFD45C1E6C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{26B1C705-D5D7-48D7-A466-09EFD45C1E6C}.Release|x86.ActiveCfg = Release|Any CPU
+		{97ADD47D-8D6D-40C4-995D-0F6DB171170C}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{97ADD47D-8D6D-40C4-995D-0F6DB171170C}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{97ADD47D-8D6D-40C4-995D-0F6DB171170C}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{97ADD47D-8D6D-40C4-995D-0F6DB171170C}.Debug|x86.ActiveCfg = Debug|x86
+		{97ADD47D-8D6D-40C4-995D-0F6DB171170C}.Debug|x86.Build.0 = Debug|x86
+		{97ADD47D-8D6D-40C4-995D-0F6DB171170C}.Release|Any CPU.ActiveCfg = Release|x86
+		{97ADD47D-8D6D-40C4-995D-0F6DB171170C}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{97ADD47D-8D6D-40C4-995D-0F6DB171170C}.Release|Mixed Platforms.Build.0 = Release|x86
+		{97ADD47D-8D6D-40C4-995D-0F6DB171170C}.Release|x86.ActiveCfg = Release|x86
+		{97ADD47D-8D6D-40C4-995D-0F6DB171170C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

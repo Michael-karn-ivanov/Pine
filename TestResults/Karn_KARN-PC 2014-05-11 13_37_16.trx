@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f51b5a49-8cd6-48d8-84d5-639aa6cefe5d" name="Karn@KARN-PC 2014-05-11 13:37:16" runUser="Karn-PC\Karn" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ed9c3589-b0ba-48c3-8204-e76f81ad4649">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Karn_KARN-PC 2014-05-11 13_37_16">
+      <DeploymentItem filename="D:\Development\Pine\PineHome\PineHome\bin\Debug\PineHome.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-05-11T13:37:16.4600120+04:00" queuing="2014-05-11T13:37:16.7330276+04:00" start="2014-05-11T13:37:16.8000314+04:00" finish="2014-05-11T13:37:20.5932484+04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="35" executed="35" passed="35" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestScoreCompare30Alive" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="de1230c0-c6d5-670b-6b50-fa25ae9d62f5">
+      <Execution id="f08fded0-3361-4f7c-92d8-1d4210078f20" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestScoreCompare30Alive" />
+    </UnitTest>
+    <UnitTest name="TestSortLineHighCard" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="b6dcea4d-fe07-28fc-b75c-3009d78b4b2b">
+      <Execution id="07f03317-a0bd-4d63-b514-d91952a25ebe" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSortLineHighCard" />
+    </UnitTest>
+    <UnitTest name="TestSortLineShortPair" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="0b1f3c82-e6f7-4d31-cb8c-8fd80a3b4de8">
+      <Execution id="89a20da1-cc1b-4ab8-9ba1-f3e54b1390ce" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSortLineShortPair" />
+    </UnitTest>
+    <UnitTest name="TestCompareOneAnotherEqualLen" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="7ee34dcb-0bb5-b52e-6b74-83f15f36cefc">
+      <Execution id="2936b1fc-58f1-4b3f-abcf-58558cd72c4e" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCompareOneAnotherEqualLen" />
+    </UnitTest>
+    <UnitTest name="TestIsHandDeadWhenAliveVariousCombo" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="5fcc0d54-3e94-9bd3-a171-f1d37e1f1442">
+      <Execution id="300a4374-e1b5-44de-b20c-72de9f5f9efc" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIsHandDeadWhenAliveVariousCombo" />
+    </UnitTest>
+    <UnitTest name="TestSortLineCare" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="56f2528e-c994-6e81-2e67-b9b97d271342">
+      <Execution id="98924efb-f802-4207-be3c-eb704c7fa681" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSortLineCare" />
+    </UnitTest>
+    <UnitTest name="TestCalculateBonusShortPairWithFantazy" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="49801873-3e95-966e-47b1-5abd50b3d3bd">
+      <Execution id="e5924cb7-cdc9-4950-852c-e85c8ac9c8dd" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCalculateBonusShortPairWithFantazy" />
+    </UnitTest>
+    <UnitTest name="TestScoreCompareDeadvsAlive" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="85d66a85-23c4-8573-cc71-5c98d8462423">
+      <Execution id="e992729b-5e7a-41d6-8ae0-51d356c48422" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestScoreCompareDeadvsAlive" />
+    </UnitTest>
+    <UnitTest name="TestSortLineShortSet" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="e8ba16c0-4254-4e62-785a-bfb4b194d8c4">
+      <Execution id="be234560-0713-4df5-a7f6-1bfdaf7b55af" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSortLineShortSet" />
+    </UnitTest>
+    <UnitTest name="TestScoreCompare12" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="abfc9d82-ff17-c532-25ba-4106442d2ae0">
+      <Execution id="5101f9da-f5f4-4b3f-9f26-e7247bb18f40" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestScoreCompare12" />
+    </UnitTest>
+    <UnitTest name="TestCalculateBonusShortHighCard" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="290f5c1f-e5f2-f52d-6374-3a37473e1d15">
+      <Execution id="e71c07e5-f146-4a8a-990e-840d16ff8b7a" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCalculateBonusShortHighCard" />
+    </UnitTest>
+    <UnitTest name="TestCalculateBonusShortSet" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="ceffe5c6-b4bc-6558-a0f8-27c3a5327754">
+      <Execution id="91e00cd6-2eb6-487c-ac86-1ab7de9e9eb5" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCalculateBonusShortSet" />
+    </UnitTest>
+    <UnitTest name="TestScoreCompare03" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="e316f557-401c-4281-e9a7-39cbfec16de6">
+      <Execution id="f3ac9f29-c84c-4dfb-8ecf-6d9eb4253426" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestScoreCompare03" />
+    </UnitTest>
+    <UnitTest name="TestSortLineStraightFlush" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="ac24fe4c-155a-9325-5352-2ec9a299ed8c">
+      <Execution id="ad40c732-b725-4105-a149-eb3c71018c7b" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSortLineStraightFlush" />
+    </UnitTest>
+    <UnitTest name="TestSortLineTwoPairs" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="c54933dc-903f-5f58-f04e-840aaf490ed4">
+      <Execution id="c37dd210-7eeb-4da1-a578-c8d4ce554f22" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSortLineTwoPairs" />
+    </UnitTest>
+    <UnitTest name="TestIsHandDeadWhenDeadByHighCardKicker" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="7c46bc72-93eb-5165-6a8f-4a1c3aff414b">
+      <Execution id="6a85dce9-cfad-4825-81c1-dcc3eab44013" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIsHandDeadWhenDeadByHighCardKicker" />
+    </UnitTest>
+    <UnitTest name="TestCompareOneAnotherVariousPower" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="91ba91de-3e57-5dfb-6c06-03a1e3125712">
+      <Execution id="531eba99-8056-403b-9e1b-357c3210b38b" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCompareOneAnotherVariousPower" />
+    </UnitTest>
+    <UnitTest name="TestCalculateBonusShortPairNoFantazy" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="02f1ff76-47ae-6246-86fd-da0c13ec49e7">
+      <Execution id="5fab0a73-7eb8-452d-8e6f-61c71db484b4" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCalculateBonusShortPairNoFantazy" />
+    </UnitTest>
+    <UnitTest name="TestSortLineStraight" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="837e4130-6cf2-75fa-27f5-2261152898a2">
+      <Execution id="da868812-19bd-4534-b4f4-cc6187fe7f84" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSortLineStraight" />
+    </UnitTest>
+    <UnitTest name="TestScoreCompareDeadVSDead" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="3f9ed501-b434-a709-b667-9000a761ed11">
+      <Execution id="e7d91dcc-afd1-4230-8e9c-0ed24ff39578" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestScoreCompareDeadVSDead" />
+    </UnitTest>
+    <UnitTest name="TestSortLineFlash" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="f4da5414-1339-95da-7cd4-041c11c64d03">
+      <Execution id="a67bdca6-68ba-4e89-bd1b-5c49bf4e035b" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSortLineFlash" />
+    </UnitTest>
+    <UnitTest name="TestIsHandDeadWhenAliveByKicker" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="8540788a-d322-3e0d-c1a7-50902d711516">
+      <Execution id="ae67d675-dba5-458b-821f-61b19df14b68" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIsHandDeadWhenAliveByKicker" />
+    </UnitTest>
+    <UnitTest name="TestSortLineFullHouse" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="a803c9ad-7640-ed40-e887-f05b1195ee18">
+      <Execution id="1d396472-2b98-42f8-9f02-971b3b4bcd9f" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSortLineFullHouse" />
+    </UnitTest>
+    <UnitTest name="TestCompareOneAnotherLen" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="0f0aea45-2f59-ae53-26a8-35f943752448">
+      <Execution id="8eb84a3c-a109-4ded-b28b-58e13e567354" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCompareOneAnotherLen" />
+    </UnitTest>
+    <UnitTest name="TestSortLinePair" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="628d3a25-368e-6618-6c7a-7a17f5bb24ac">
+      <Execution id="41d2e2e0-12e7-4825-9571-36a1e5a87065" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSortLinePair" />
+    </UnitTest>
+    <UnitTest name="TestSortLineShortHighCard" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="0dbadb68-8f45-c97d-4cf6-9340d96abc71">
+      <Execution id="7806b14f-4ee1-45de-adaa-f2e4f7b8b232" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSortLineShortHighCard" />
+    </UnitTest>
+    <UnitTest name="TestCompareOneAnotherOnPower" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="89a0c2d2-3c1f-98a8-f51d-ba971d14a873">
+      <Execution id="9538068a-3215-4e4d-90c4-4d17d20aa012" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCompareOneAnotherOnPower" />
+    </UnitTest>
+    <UnitTest name="TestScoreCompareAliveVsDead" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="4b8a4220-bfce-24b6-2758-2c3e6abfb9b1">
+      <Execution id="b7d3cbf4-7eb4-4f61-a1f3-5118cc56fd78" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestScoreCompareAliveVsDead" />
+    </UnitTest>
+    <UnitTest name="TestIsHandDeadWhenDeadByKicker" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="90fd220d-035c-cf3a-821f-ecd17c32b818">
+      <Execution id="91df7b5e-bf43-4879-93ee-60e436257036" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIsHandDeadWhenDeadByKicker" />
+    </UnitTest>
+    <UnitTest name="TestScoreCompare21" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="359775e0-3b6b-ef25-f82e-ea828d9f7bcc">
+      <Execution id="49724234-f90c-4b10-9a94-f006ba2fd551" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestScoreCompare21" />
+    </UnitTest>
+    <UnitTest name="TestCompareOneAnotherFlash" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="6e9b9f4f-5bdd-d29a-a3ab-b513bf85a6fc">
+      <Execution id="0ebe993b-99f7-497b-8ac1-354f9adf646b" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCompareOneAnotherFlash" />
+    </UnitTest>
+    <UnitTest name="TestIsHandDeadWhenLiveByEqual" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="f83a2f26-1a4b-b09a-cd02-82e5fbba0c4b">
+      <Execution id="782f5ead-686d-4747-ba35-995c2bcd97ee" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIsHandDeadWhenLiveByEqual" />
+    </UnitTest>
+    <UnitTest name="TestSortLineRoyal" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="410a94c6-97c4-36a2-3090-6a51a81f1e10">
+      <Execution id="9ef1bd7f-6e22-4491-b201-f43efe42926e" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSortLineRoyal" />
+    </UnitTest>
+    <UnitTest name="TestIsHandDeadWhenDeadByLastCardKicker" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="486e87da-efe9-bf68-247f-e858b92b5814">
+      <Execution id="c907c746-3de5-4034-8a8e-267d695e9387" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIsHandDeadWhenDeadByLastCardKicker" />
+    </UnitTest>
+    <UnitTest name="TestSortLineSet" storage="d:\development\pine\pinehome\pinehome.tests\bin\debug\pinehome.tests.dll" id="71f0f928-6b86-eabc-4bab-f34d23a0d186">
+      <Execution id="840f4cd2-f5db-49c7-9948-a7405c9f8d6d" />
+      <TestMethod codeBase="D:/Development/Pine/PineHome/PineHome.Tests/bin/Debug/PineHome.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Pineapple.UnitTest.LastTurnInPositionTest, PineHome.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSortLineSet" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="02f1ff76-47ae-6246-86fd-da0c13ec49e7" executionId="5fab0a73-7eb8-452d-8e6f-61c71db484b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0b1f3c82-e6f7-4d31-cb8c-8fd80a3b4de8" executionId="89a20da1-cc1b-4ab8-9ba1-f3e54b1390ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0dbadb68-8f45-c97d-4cf6-9340d96abc71" executionId="7806b14f-4ee1-45de-adaa-f2e4f7b8b232" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0f0aea45-2f59-ae53-26a8-35f943752448" executionId="8eb84a3c-a109-4ded-b28b-58e13e567354" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="290f5c1f-e5f2-f52d-6374-3a37473e1d15" executionId="e71c07e5-f146-4a8a-990e-840d16ff8b7a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="359775e0-3b6b-ef25-f82e-ea828d9f7bcc" executionId="49724234-f90c-4b10-9a94-f006ba2fd551" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3f9ed501-b434-a709-b667-9000a761ed11" executionId="e7d91dcc-afd1-4230-8e9c-0ed24ff39578" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="410a94c6-97c4-36a2-3090-6a51a81f1e10" executionId="9ef1bd7f-6e22-4491-b201-f43efe42926e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="486e87da-efe9-bf68-247f-e858b92b5814" executionId="c907c746-3de5-4034-8a8e-267d695e9387" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="49801873-3e95-966e-47b1-5abd50b3d3bd" executionId="e5924cb7-cdc9-4950-852c-e85c8ac9c8dd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4b8a4220-bfce-24b6-2758-2c3e6abfb9b1" executionId="b7d3cbf4-7eb4-4f61-a1f3-5118cc56fd78" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="56f2528e-c994-6e81-2e67-b9b97d271342" executionId="98924efb-f802-4207-be3c-eb704c7fa681" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5fcc0d54-3e94-9bd3-a171-f1d37e1f1442" executionId="300a4374-e1b5-44de-b20c-72de9f5f9efc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="628d3a25-368e-6618-6c7a-7a17f5bb24ac" executionId="41d2e2e0-12e7-4825-9571-36a1e5a87065" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6e9b9f4f-5bdd-d29a-a3ab-b513bf85a6fc" executionId="0ebe993b-99f7-497b-8ac1-354f9adf646b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="71f0f928-6b86-eabc-4bab-f34d23a0d186" executionId="840f4cd2-f5db-49c7-9948-a7405c9f8d6d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7c46bc72-93eb-5165-6a8f-4a1c3aff414b" executionId="6a85dce9-cfad-4825-81c1-dcc3eab44013" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7ee34dcb-0bb5-b52e-6b74-83f15f36cefc" executionId="2936b1fc-58f1-4b3f-abcf-58558cd72c4e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="837e4130-6cf2-75fa-27f5-2261152898a2" executionId="da868812-19bd-4534-b4f4-cc6187fe7f84" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8540788a-d322-3e0d-c1a7-50902d711516" executionId="ae67d675-dba5-458b-821f-61b19df14b68" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="85d66a85-23c4-8573-cc71-5c98d8462423" executionId="e992729b-5e7a-41d6-8ae0-51d356c48422" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="89a0c2d2-3c1f-98a8-f51d-ba971d14a873" executionId="9538068a-3215-4e4d-90c4-4d17d20aa012" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90fd220d-035c-cf3a-821f-ecd17c32b818" executionId="91df7b5e-bf43-4879-93ee-60e436257036" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="91ba91de-3e57-5dfb-6c06-03a1e3125712" executionId="531eba99-8056-403b-9e1b-357c3210b38b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a803c9ad-7640-ed40-e887-f05b1195ee18" executionId="1d396472-2b98-42f8-9f02-971b3b4bcd9f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="abfc9d82-ff17-c532-25ba-4106442d2ae0" executionId="5101f9da-f5f4-4b3f-9f26-e7247bb18f40" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ac24fe4c-155a-9325-5352-2ec9a299ed8c" executionId="ad40c732-b725-4105-a149-eb3c71018c7b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b6dcea4d-fe07-28fc-b75c-3009d78b4b2b" executionId="07f03317-a0bd-4d63-b514-d91952a25ebe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c54933dc-903f-5f58-f04e-840aaf490ed4" executionId="c37dd210-7eeb-4da1-a578-c8d4ce554f22" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ceffe5c6-b4bc-6558-a0f8-27c3a5327754" executionId="91e00cd6-2eb6-487c-ac86-1ab7de9e9eb5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="de1230c0-c6d5-670b-6b50-fa25ae9d62f5" executionId="f08fded0-3361-4f7c-92d8-1d4210078f20" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e316f557-401c-4281-e9a7-39cbfec16de6" executionId="f3ac9f29-c84c-4dfb-8ecf-6d9eb4253426" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e8ba16c0-4254-4e62-785a-bfb4b194d8c4" executionId="be234560-0713-4df5-a7f6-1bfdaf7b55af" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f4da5414-1339-95da-7cd4-041c11c64d03" executionId="a67bdca6-68ba-4e89-bd1b-5c49bf4e035b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f83a2f26-1a4b-b09a-cd02-82e5fbba0c4b" executionId="782f5ead-686d-4747-ba35-995c2bcd97ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="5fab0a73-7eb8-452d-8e6f-61c71db484b4" testId="02f1ff76-47ae-6246-86fd-da0c13ec49e7" testName="TestCalculateBonusShortPairNoFantazy" computerName="KARN-PC" duration="00:00:00.0334867" startTime="2014-05-11T13:37:16.9260387+04:00" endTime="2014-05-11T13:37:17.5910767+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5fab0a73-7eb8-452d-8e6f-61c71db484b4">
+    </UnitTestResult>
+    <UnitTestResult executionId="89a20da1-cc1b-4ab8-9ba1-f3e54b1390ce" testId="0b1f3c82-e6f7-4d31-cb8c-8fd80a3b4de8" testName="TestSortLineShortPair" computerName="KARN-PC" duration="00:00:00.0025267" startTime="2014-05-11T13:37:17.6380794+04:00" endTime="2014-05-11T13:37:17.6850821+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="89a20da1-cc1b-4ab8-9ba1-f3e54b1390ce">
+    </UnitTestResult>
+    <UnitTestResult executionId="7806b14f-4ee1-45de-adaa-f2e4f7b8b232" testId="0dbadb68-8f45-c97d-4cf6-9340d96abc71" testName="TestSortLineShortHighCard" computerName="KARN-PC" duration="00:00:00.0003212" startTime="2014-05-11T13:37:17.7360850+04:00" endTime="2014-05-11T13:37:17.7780874+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7806b14f-4ee1-45de-adaa-f2e4f7b8b232">
+    </UnitTestResult>
+    <UnitTestResult executionId="8eb84a3c-a109-4ded-b28b-58e13e567354" testId="0f0aea45-2f59-ae53-26a8-35f943752448" testName="TestCompareOneAnotherLen" computerName="KARN-PC" duration="00:00:00.0007091" startTime="2014-05-11T13:37:17.8280902+04:00" endTime="2014-05-11T13:37:17.8720928+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8eb84a3c-a109-4ded-b28b-58e13e567354">
+    </UnitTestResult>
+    <UnitTestResult executionId="e71c07e5-f146-4a8a-990e-840d16ff8b7a" testId="290f5c1f-e5f2-f52d-6374-3a37473e1d15" testName="TestCalculateBonusShortHighCard" computerName="KARN-PC" duration="00:00:00.0003114" startTime="2014-05-11T13:37:17.9170953+04:00" endTime="2014-05-11T13:37:17.9560976+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e71c07e5-f146-4a8a-990e-840d16ff8b7a">
+    </UnitTestResult>
+    <UnitTestResult executionId="49724234-f90c-4b10-9a94-f006ba2fd551" testId="359775e0-3b6b-ef25-f82e-ea828d9f7bcc" testName="TestScoreCompare21" computerName="KARN-PC" duration="00:00:00.0011515" startTime="2014-05-11T13:37:17.9991000+04:00" endTime="2014-05-11T13:37:18.0391023+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="49724234-f90c-4b10-9a94-f006ba2fd551">
+    </UnitTestResult>
+    <UnitTestResult executionId="e7d91dcc-afd1-4230-8e9c-0ed24ff39578" testId="3f9ed501-b434-a709-b667-9000a761ed11" testName="TestScoreCompareDeadVSDead" computerName="KARN-PC" duration="00:00:00.0005403" startTime="2014-05-11T13:37:18.0821048+04:00" endTime="2014-05-11T13:37:18.1211070+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e7d91dcc-afd1-4230-8e9c-0ed24ff39578">
+    </UnitTestResult>
+    <UnitTestResult executionId="9ef1bd7f-6e22-4491-b201-f43efe42926e" testId="410a94c6-97c4-36a2-3090-6a51a81f1e10" testName="TestSortLineRoyal" computerName="KARN-PC" duration="00:00:00.0003581" startTime="2014-05-11T13:37:18.1641095+04:00" endTime="2014-05-11T13:37:18.2011116+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9ef1bd7f-6e22-4491-b201-f43efe42926e">
+    </UnitTestResult>
+    <UnitTestResult executionId="c907c746-3de5-4034-8a8e-267d695e9387" testId="486e87da-efe9-bf68-247f-e858b92b5814" testName="TestIsHandDeadWhenDeadByLastCardKicker" computerName="KARN-PC" duration="00:00:00.0003776" startTime="2014-05-11T13:37:18.2441140+04:00" endTime="2014-05-11T13:37:18.2821162+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c907c746-3de5-4034-8a8e-267d695e9387">
+    </UnitTestResult>
+    <UnitTestResult executionId="e5924cb7-cdc9-4950-852c-e85c8ac9c8dd" testId="49801873-3e95-966e-47b1-5abd50b3d3bd" testName="TestCalculateBonusShortPairWithFantazy" computerName="KARN-PC" duration="00:00:00.0003099" startTime="2014-05-11T13:37:18.3531203+04:00" endTime="2014-05-11T13:37:18.3911225+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e5924cb7-cdc9-4950-852c-e85c8ac9c8dd">
+    </UnitTestResult>
+    <UnitTestResult executionId="b7d3cbf4-7eb4-4f61-a1f3-5118cc56fd78" testId="4b8a4220-bfce-24b6-2758-2c3e6abfb9b1" testName="TestScoreCompareAliveVsDead" computerName="KARN-PC" duration="00:00:00.0005290" startTime="2014-05-11T13:37:18.4341249+04:00" endTime="2014-05-11T13:37:18.4721271+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b7d3cbf4-7eb4-4f61-a1f3-5118cc56fd78">
+    </UnitTestResult>
+    <UnitTestResult executionId="98924efb-f802-4207-be3c-eb704c7fa681" testId="56f2528e-c994-6e81-2e67-b9b97d271342" testName="TestSortLineCare" computerName="KARN-PC" duration="00:00:00.0003571" startTime="2014-05-11T13:37:18.5441312+04:00" endTime="2014-05-11T13:37:18.5821334+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="98924efb-f802-4207-be3c-eb704c7fa681">
+    </UnitTestResult>
+    <UnitTestResult executionId="300a4374-e1b5-44de-b20c-72de9f5f9efc" testId="5fcc0d54-3e94-9bd3-a171-f1d37e1f1442" testName="TestIsHandDeadWhenAliveVariousCombo" computerName="KARN-PC" duration="00:00:00.0004397" startTime="2014-05-11T13:37:18.6271360+04:00" endTime="2014-05-11T13:37:18.6691384+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="300a4374-e1b5-44de-b20c-72de9f5f9efc">
+    </UnitTestResult>
+    <UnitTestResult executionId="41d2e2e0-12e7-4825-9571-36a1e5a87065" testId="628d3a25-368e-6618-6c7a-7a17f5bb24ac" testName="TestSortLinePair" computerName="KARN-PC" duration="00:00:00.0003710" startTime="2014-05-11T13:37:18.7111408+04:00" endTime="2014-05-11T13:37:18.7491429+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="41d2e2e0-12e7-4825-9571-36a1e5a87065">
+    </UnitTestResult>
+    <UnitTestResult executionId="0ebe993b-99f7-497b-8ac1-354f9adf646b" testId="6e9b9f4f-5bdd-d29a-a3ab-b513bf85a6fc" testName="TestCompareOneAnotherFlash" computerName="KARN-PC" duration="00:00:00.0002889" startTime="2014-05-11T13:37:18.7981457+04:00" endTime="2014-05-11T13:37:18.8411482+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ebe993b-99f7-497b-8ac1-354f9adf646b">
+    </UnitTestResult>
+    <UnitTestResult executionId="840f4cd2-f5db-49c7-9948-a7405c9f8d6d" testId="71f0f928-6b86-eabc-4bab-f34d23a0d186" testName="TestSortLineSet" computerName="KARN-PC" duration="00:00:00.0004618" startTime="2014-05-11T13:37:18.8871508+04:00" endTime="2014-05-11T13:37:18.9341535+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="840f4cd2-f5db-49c7-9948-a7405c9f8d6d">
+    </UnitTestResult>
+    <UnitTestResult executionId="6a85dce9-cfad-4825-81c1-dcc3eab44013" testId="7c46bc72-93eb-5165-6a8f-4a1c3aff414b" testName="TestIsHandDeadWhenDeadByHighCardKicker" computerName="KARN-PC" duration="00:00:00.0003407" startTime="2014-05-11T13:37:18.9841564+04:00" endTime="2014-05-11T13:37:19.0221585+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6a85dce9-cfad-4825-81c1-dcc3eab44013">
+    </UnitTestResult>
+    <UnitTestResult executionId="2936b1fc-58f1-4b3f-abcf-58558cd72c4e" testId="7ee34dcb-0bb5-b52e-6b74-83f15f36cefc" testName="TestCompareOneAnotherEqualLen" computerName="KARN-PC" duration="00:00:00.0002791" startTime="2014-05-11T13:37:19.0661611+04:00" endTime="2014-05-11T13:37:19.1031632+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2936b1fc-58f1-4b3f-abcf-58558cd72c4e">
+    </UnitTestResult>
+    <UnitTestResult executionId="da868812-19bd-4534-b4f4-cc6187fe7f84" testId="837e4130-6cf2-75fa-27f5-2261152898a2" testName="TestSortLineStraight" computerName="KARN-PC" duration="00:00:00.0003474" startTime="2014-05-11T13:37:19.1441655+04:00" endTime="2014-05-11T13:37:19.1811676+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="da868812-19bd-4534-b4f4-cc6187fe7f84">
+    </UnitTestResult>
+    <UnitTestResult executionId="ae67d675-dba5-458b-821f-61b19df14b68" testId="8540788a-d322-3e0d-c1a7-50902d711516" testName="TestIsHandDeadWhenAliveByKicker" computerName="KARN-PC" duration="00:00:00.0003155" startTime="2014-05-11T13:37:19.2231700+04:00" endTime="2014-05-11T13:37:19.2591721+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ae67d675-dba5-458b-821f-61b19df14b68">
+    </UnitTestResult>
+    <UnitTestResult executionId="e992729b-5e7a-41d6-8ae0-51d356c48422" testId="85d66a85-23c4-8573-cc71-5c98d8462423" testName="TestScoreCompareDeadvsAlive" computerName="KARN-PC" duration="00:00:00.0005316" startTime="2014-05-11T13:37:19.3001744+04:00" endTime="2014-05-11T13:37:19.3381766+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e992729b-5e7a-41d6-8ae0-51d356c48422">
+    </UnitTestResult>
+    <UnitTestResult executionId="9538068a-3215-4e4d-90c4-4d17d20aa012" testId="89a0c2d2-3c1f-98a8-f51d-ba971d14a873" testName="TestCompareOneAnotherOnPower" computerName="KARN-PC" duration="00:00:00.0002847" startTime="2014-05-11T13:37:19.3791790+04:00" endTime="2014-05-11T13:37:19.4151810+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9538068a-3215-4e4d-90c4-4d17d20aa012">
+    </UnitTestResult>
+    <UnitTestResult executionId="91df7b5e-bf43-4879-93ee-60e436257036" testId="90fd220d-035c-cf3a-821f-ecd17c32b818" testName="TestIsHandDeadWhenDeadByKicker" computerName="KARN-PC" duration="00:00:00.0003155" startTime="2014-05-11T13:37:19.4561834+04:00" endTime="2014-05-11T13:37:19.4921854+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="91df7b5e-bf43-4879-93ee-60e436257036">
+    </UnitTestResult>
+    <UnitTestResult executionId="531eba99-8056-403b-9e1b-357c3210b38b" testId="91ba91de-3e57-5dfb-6c06-03a1e3125712" testName="TestCompareOneAnotherVariousPower" computerName="KARN-PC" duration="00:00:00.0002781" startTime="2014-05-11T13:37:19.5331878+04:00" endTime="2014-05-11T13:37:19.5701899+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="531eba99-8056-403b-9e1b-357c3210b38b">
+    </UnitTestResult>
+    <UnitTestResult executionId="1d396472-2b98-42f8-9f02-971b3b4bcd9f" testId="a803c9ad-7640-ed40-e887-f05b1195ee18" testName="TestSortLineFullHouse" computerName="KARN-PC" duration="00:00:00.0003535" startTime="2014-05-11T13:37:19.6101922+04:00" endTime="2014-05-11T13:37:19.6461942+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1d396472-2b98-42f8-9f02-971b3b4bcd9f">
+    </UnitTestResult>
+    <UnitTestResult executionId="5101f9da-f5f4-4b3f-9f26-e7247bb18f40" testId="abfc9d82-ff17-c532-25ba-4106442d2ae0" testName="TestScoreCompare12" computerName="KARN-PC" duration="00:00:00.0005352" startTime="2014-05-11T13:37:19.6871966+04:00" endTime="2014-05-11T13:37:19.7241987+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5101f9da-f5f4-4b3f-9f26-e7247bb18f40">
+    </UnitTestResult>
+    <UnitTestResult executionId="ad40c732-b725-4105-a149-eb3c71018c7b" testId="ac24fe4c-155a-9325-5352-2ec9a299ed8c" testName="TestSortLineStraightFlush" computerName="KARN-PC" duration="00:00:00.0003715" startTime="2014-05-11T13:37:19.7662011+04:00" endTime="2014-05-11T13:37:19.8042033+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ad40c732-b725-4105-a149-eb3c71018c7b">
+    </UnitTestResult>
+    <UnitTestResult executionId="07f03317-a0bd-4d63-b514-d91952a25ebe" testId="b6dcea4d-fe07-28fc-b75c-3009d78b4b2b" testName="TestSortLineHighCard" computerName="KARN-PC" duration="00:00:00.0003828" startTime="2014-05-11T13:37:19.8522060+04:00" endTime="2014-05-11T13:37:19.8902082+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07f03317-a0bd-4d63-b514-d91952a25ebe">
+    </UnitTestResult>
+    <UnitTestResult executionId="c37dd210-7eeb-4da1-a578-c8d4ce554f22" testId="c54933dc-903f-5f58-f04e-840aaf490ed4" testName="TestSortLineTwoPairs" computerName="KARN-PC" duration="00:00:00.0003540" startTime="2014-05-11T13:37:19.9602122+04:00" endTime="2014-05-11T13:37:19.9982144+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c37dd210-7eeb-4da1-a578-c8d4ce554f22">
+    </UnitTestResult>
+    <UnitTestResult executionId="91e00cd6-2eb6-487c-ac86-1ab7de9e9eb5" testId="ceffe5c6-b4bc-6558-a0f8-27c3a5327754" testName="TestCalculateBonusShortSet" computerName="KARN-PC" duration="00:00:00.0003592" startTime="2014-05-11T13:37:20.0442170+04:00" endTime="2014-05-11T13:37:20.0832192+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="91e00cd6-2eb6-487c-ac86-1ab7de9e9eb5">
+    </UnitTestResult>
+    <UnitTestResult executionId="f08fded0-3361-4f7c-92d8-1d4210078f20" testId="de1230c0-c6d5-670b-6b50-fa25ae9d62f5" testName="TestScoreCompare30Alive" computerName="KARN-PC" duration="00:00:00.0005341" startTime="2014-05-11T13:37:20.1372223+04:00" endTime="2014-05-11T13:37:20.1832250+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f08fded0-3361-4f7c-92d8-1d4210078f20">
+    </UnitTestResult>
+    <UnitTestResult executionId="f3ac9f29-c84c-4dfb-8ecf-6d9eb4253426" testId="e316f557-401c-4281-e9a7-39cbfec16de6" testName="TestScoreCompare03" computerName="KARN-PC" duration="00:00:00.0005526" startTime="2014-05-11T13:37:20.2272275+04:00" endTime="2014-05-11T13:37:20.2702299+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f3ac9f29-c84c-4dfb-8ecf-6d9eb4253426">
+    </UnitTestResult>
+    <UnitTestResult executionId="be234560-0713-4df5-a7f6-1bfdaf7b55af" testId="e8ba16c0-4254-4e62-785a-bfb4b194d8c4" testName="TestSortLineShortSet" computerName="KARN-PC" duration="00:00:00.0004115" startTime="2014-05-11T13:37:20.3172326+04:00" endTime="2014-05-11T13:37:20.3592350+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be234560-0713-4df5-a7f6-1bfdaf7b55af">
+    </UnitTestResult>
+    <UnitTestResult executionId="a67bdca6-68ba-4e89-bd1b-5c49bf4e035b" testId="f4da5414-1339-95da-7cd4-041c11c64d03" testName="TestSortLineFlash" computerName="KARN-PC" duration="00:00:00.0003653" startTime="2014-05-11T13:37:20.4032375+04:00" endTime="2014-05-11T13:37:20.4412397+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a67bdca6-68ba-4e89-bd1b-5c49bf4e035b">
+    </UnitTestResult>
+    <UnitTestResult executionId="782f5ead-686d-4747-ba35-995c2bcd97ee" testId="f83a2f26-1a4b-b09a-cd02-82e5fbba0c4b" testName="TestIsHandDeadWhenLiveByEqual" computerName="KARN-PC" duration="00:00:00.0003330" startTime="2014-05-11T13:37:20.4832421+04:00" endTime="2014-05-11T13:37:20.5202442+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="782f5ead-686d-4747-ba35-995c2bcd97ee">
+    </UnitTestResult>
+  </Results>
+</TestRun>

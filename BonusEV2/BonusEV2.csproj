@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>27a8aa70-9b4e-4cd1-b053-c4864d9adeaf</ProjectGuid>
+    <ProjectGuid>{C21F2B8F-9A90-467E-86C2-41A9F144946D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BonusEV2</RootNamespace>

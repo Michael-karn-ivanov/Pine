@@ -5,3 +5,5 @@ D:\Development\Pine\PineHome\TimeMeasureConsole\bin\Release\PineHome.pdb
 D:\Development\Pine\PineHome\TimeMeasureConsole\obj\x86\Release\ResolveAssemblyReference.cache
 D:\Development\Pine\PineHome\TimeMeasureConsole\obj\x86\Release\TimeMeasureConsole.exe
 D:\Development\Pine\PineHome\TimeMeasureConsole\obj\x86\Release\TimeMeasureConsole.pdb
+D:\_WorkUnmapped\Pine\TimeMeasureConsole\obj\x86\Release\TimeMeasureConsole.exe
+D:\_WorkUnmapped\Pine\TimeMeasureConsole\obj\x86\Release\TimeMeasureConsole.pdb

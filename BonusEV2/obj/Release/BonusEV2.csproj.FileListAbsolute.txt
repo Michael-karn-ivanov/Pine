@@ -1,1 +1,2 @@
 D:\_WorkUnmapped\Pine\BonusEV2\obj\Release\BonusEV2.csprojResolveAssemblyReference.cache
+D:\Development\Pine\PineHome\BonusEV2\obj\Release\ResolveAssemblyReference.cache

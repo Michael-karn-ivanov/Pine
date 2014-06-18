@@ -279,7 +279,11 @@ namespace BonusEV2
                     if (sameColor) return LineValue.Royal;
                     else return LineValue.Straight;
                 }
-                if(
+                if (fourthValue == 4 && fifthValue == 5)
+                {
+                    if (sameColor) return LineValue.StraightFlash;
+                    else return LineValue.Straight;
+                }
             }
             #endregion
         }

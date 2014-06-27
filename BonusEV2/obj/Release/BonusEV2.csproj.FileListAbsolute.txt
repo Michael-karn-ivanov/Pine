@@ -1,2 +1,6 @@
 D:\_WorkUnmapped\Pine\BonusEV2\obj\Release\BonusEV2.csprojResolveAssemblyReference.cache
 D:\Development\Pine\PineHome\BonusEV2\obj\Release\ResolveAssemblyReference.cache
+D:\Development\Pine\PineHome\BonusEV2\bin\Release\BonusEV2.dll
+D:\Development\Pine\PineHome\BonusEV2\bin\Release\BonusEV2.pdb
+D:\Development\Pine\PineHome\BonusEV2\obj\Release\BonusEV2.dll
+D:\Development\Pine\PineHome\BonusEV2\obj\Release\BonusEV2.pdb

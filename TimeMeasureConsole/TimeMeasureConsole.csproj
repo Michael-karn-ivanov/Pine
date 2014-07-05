@@ -47,6 +47,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BonusEV2\BonusEV2.csproj">
+      <Project>{C21F2B8F-9A90-467E-86C2-41A9F144946D}</Project>
+      <Name>BonusEV2</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PineHome\PineHome.csproj">
       <Project>{A91FC42B-820E-4680-8F10-0885AA1C4C47}</Project>
       <Name>PineHome</Name>

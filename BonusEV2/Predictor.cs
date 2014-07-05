@@ -517,7 +517,7 @@ namespace BonusEV2
                             else return LineValue.Pair1E;
                         }
                     }
-                    else
+                    else if(countValue[i] == 1)
                     {
                         if (firstPairIndex >= 0) return LineValue.Pair1E;
                         else
@@ -574,7 +574,7 @@ namespace BonusEV2
                         else if (hasPair) return LineValue.TwoPairs;
                         else hasPair = true;
                     }
-                    else
+                    else if (countValue[i] == 1)
                     {
                         if (firstValue < 0) firstValue = i;
                         else if (secondValue < 0) secondValue = i;
@@ -719,9 +719,9 @@ namespace BonusEV2
 
         public void rePickTriple(byte[] deck, byte[] triple)
         {
-            deck[triple[0]] = 0;
-            deck[triple[1]] = 0;
-            deck[triple[2]] = 0;
+            deck[triple[0] - 1] = 0;
+            deck[triple[1] - 1] = 0;
+            deck[triple[2] - 1] = 0;
         }
 
         public byte[] pickRandomThree(byte[] deck)
@@ -752,6 +752,10 @@ namespace BonusEV2
             foreach (var pair in setOfIndexPairs)
             {
                 var score = placeCardsAndEval(heroHand, pair[0], pair[1], triple[0], triple[1], deck);
+                if (score > maxScore) maxScore = score;
+                score = placeCardsAndEval(heroHand, pair[0], pair[1], triple[0], triple[2], deck);
+                if (score > maxScore) maxScore = score;
+                score = placeCardsAndEval(heroHand, pair[0], pair[1], triple[1], triple[2], deck);
                 if (score > maxScore) maxScore = score;
             }
             return maxScore;

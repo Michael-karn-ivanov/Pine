@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Pineapple;
+using BonusEV2;
 
 namespace TimeMeasureConsole
 {
@@ -10,11 +11,11 @@ namespace TimeMeasureConsole
     {
         static void Main(string[] args)
         {
-            
+            Console.WriteLine("Go!");
             var start = DateTime.Now;
             for (int i = 0; i < 5000; i++)
             {
-                var objectUnderTest = new LastTurnInPosition();
+                var objectUnderTest = new Predictor();
                 methodAgainstAlmostEmpty(objectUnderTest);
                 methodAgainstEmpty(objectUnderTest);
             }
@@ -24,24 +25,27 @@ namespace TimeMeasureConsole
             Console.ReadKey();
         }
 
-        static void methodAgainstAlmostEmpty(LastTurnInPosition objectUnderTest)
+
+        public const string Deck1 = "Ac Js Th Td Tc Jh 2d 2h 3h 3s "
+                + "4h 4c 4s 4d 5c 5s 5h 5d 6s 6h "
+                + "9c 9s 9d 9h Ts Js Jd Jc Qd Qh Kd Kc";
+
+        public const string Deck2 = "Qd 3d 5d 3s 4s 7s 2h 2s 2c 3h "
+            + "4s 4c 4d 5c 5s 5h 6h 6s 8s 8c " +
+            "9c 9d Td Th Tc Ts Jh Jc Js Kc";
+
+        static void methodAgainstAlmostEmpty(Predictor objectUnderTest)
         {
-            var heroHand = InputReader.ReadInput("9h 9s ? Th Ts Td 6s ? Jh Js Jd Qh Qs");
-            var villainHand = InputReader.ReadInput("2h 3s 4d 2s 3h 4c 5c 7d 2d 3d 4s 5d 8s");
-            var triple = InputReader.ReadInput("9d 6d Ad");
-            int outFirstIdx;
-            int outSecondIdx;
-            objectUnderTest.Work(villainHand, heroHand, triple, out outFirstIdx, out outSecondIdx);
+            byte[] heroHand = InputReader.ReadInput("Qs Qc 6c 2c 3c 6d Ad ? 7d 7c 7s 8c ?");
+            byte[] deck = InputReader.ReadDeck(Deck1);
+            objectUnderTest.Evaluate(heroHand, deck);
         }
 
-        static void methodAgainstEmpty(LastTurnInPosition objectUnderTest)
+        static void methodAgainstEmpty(Predictor objectUnderTest)
         {
-            var heroHand = InputReader.ReadInput("Qh 9s 6h Ts Qs As 6s ? Jh Jc Jd Kh ?");
-            var villainHand = InputReader.ReadInput("2h 3s 4d 2s 3h 4c 5c 7d 2d 3d 4s 5d 8s");
-            var triple = InputReader.ReadInput("Js Tc Td");
-            int outFirstIdx;
-            int outSecondIdx;
-            objectUnderTest.Work(villainHand, heroHand, triple, out outFirstIdx, out outSecondIdx);
+            byte[] heroHand = InputReader.ReadInput("6d Qs ? 7h Kh Ks 4d 3h Ad Jd 8d 2d ?");
+            byte[] deck = InputReader.ReadDeck(Deck2);
+            objectUnderTest.Evaluate(heroHand, deck);
         }
     }
 }

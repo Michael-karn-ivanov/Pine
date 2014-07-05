@@ -19,6 +19,17 @@ namespace Pineapple
 			return result;
 		}
 
+        public static byte[] ReadDeck(string input)
+        {
+            var deck = new byte[52];
+            for (int i = 0; i < deck.Length; i++) deck[i] = 1;
+            foreach (var b in ReadInput(input))
+            {
+                if (deck[b - 1] == 1) deck[b - 1] = 0;
+            }
+            return deck;
+        }
+
 		public static byte ReadSingle(string single)
 		{
 			if (single.Length != 2) return 0;
